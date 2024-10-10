@@ -1,0 +1,55 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0px;
+    font-family: 'poppins';
+    
+}
+
+body {
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+}
+
+#logo {
+    max-height: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+    display: flex;
+}
+
+.card-text{
+    color: white;
+    margin: 10px;
+    max-width: 500px;
+    text-align: justify;
+    
+}
+
+.title-3 {
+ outline: none;
+ color: white;
+ text-decoration: none;
+ cursor: pointer;
+ margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-card{
+  margin: 50px;
+}
+

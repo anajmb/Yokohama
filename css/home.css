@@ -1,0 +1,187 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'poppins';
+}
+
+body {
+    background: url(../img/background.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+#logo {
+    max-height: 10dvh;
+}
+
+.navbar {
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    background: linear-gradient(90deg, #000000c1, #310000c1);
+    border-radius: 0 0 30px 30px;
+}
+
+.logoF {
+    height: 50px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 1%;
+}
+
+.logoL {
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+}
+
+nav a, label {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+
+nav li, a, ul {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+    transition: .5s all;
+}
+/* 
+.carrossel img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 12px;
+    transition: .5s ease;
+}
+
+.carrossel {
+    white-space: nowrap;
+    overflow-x: clip;
+}
+
+.wapper {
+    width: 100%;
+    max-width: 1150dvh;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 25dvh;
+}
+
+.wapper svg {
+    background: #ffffffa2;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    z-index: 1000;
+}
+
+.wapper svg:first-child {
+    left: -12px;
+}
+
+.wapper svg:last-child {
+    right: -23px;
+} */
+
+/* 
+#chefe{
+    object-fit: cover;
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} */
+/* 
+footer{
+    font-size: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+} */
+
+.ativo {
+    position: absolute;
+    left: 30%;
+    right: 50%;
+}
+/* .eventos .foto {
+    height: 500px;
+    object-fit: cover;
+    margin-left: 3%;
+    align-self: center;
+    
+}
+
+.eventos button {
+    padding: 10px;
+    border-radius: 15px;
+    background: #dc3232;
+}
+
+.eventos  {
+    margin-top: 5%;
+    margin-bottom: 6%;
+    background:#230505;
+    height: 640px;
+    display: flex;
+    border: #600d0d 2px solid;
+}
+
+.foto-info {
+    max-width: 500px;
+    padding-left: 15dvh;
+    text-align: justify;
+}
+
+#verMais {
+    text-transform: uppercase;
+    background: none;
+    font-size: 17px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: all .5s;
+}
+
+#verMais:hover {
+    background: #ffffff;
+    color: #000000;
+    box-shadow: -10px 10px 10px #ffffff69;
+} */
